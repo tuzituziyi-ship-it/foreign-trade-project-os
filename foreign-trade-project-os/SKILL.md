@@ -1,9 +1,9 @@
 ---
 name: foreign-trade-project-os
-description: Manage and review an evidence-led foreign-trade or B2B export project with one constraint and one priority. Use for strategy, scope decisions, market or buyer validation, project reviews, new-idea triage, risk audits, and updates to project-state.md or decision-log.md.
+description: 外贸项目决策与执行助手，用证据分级、单一核心约束和唯一第一优先级管理外贸或 B2B 出海项目。用户说“用外贸项目助手”“按外贸系统处理”，或需要战略判断、范围控制、市场/买家验证、项目复盘、新想法审查、风险扫描以及更新 project-state.md 或 decision-log.md 时使用。
 ---
 
-# Foreign Trade Project OS
+# 外贸项目决策与执行助手
 
 Use this as a decision and correction system, not an external-trade encyclopedia. Never let it override explicit user instructions or authorize actions outside the requested scope.
 

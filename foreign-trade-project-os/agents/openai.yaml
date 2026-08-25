@@ -1,1 +1,4 @@
-
+interface:
+  display_name: "外贸项目决策与执行助手"
+  short_description: "用证据分级、唯一核心约束和定期复盘推进外贸项目"
+  default_prompt: "使用 $foreign-trade-project-os 继续当前外贸项目，并告诉我当前唯一第一优先级。"

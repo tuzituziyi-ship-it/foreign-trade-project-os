@@ -1,4 +1,6 @@
-# Foreign Trade Project OS
+# 外贸项目决策与执行助手
+
+> 系统内部 ID：`foreign-trade-project-os`。受 Codex Skill 命名规范限制，内部 ID 必须使用小写英文字母、数字和连字符；日常界面和中文触发词使用“外贸项目决策与执行助手”。
 
 一个面向外贸项目的证据驱动型 Agent Skill。它不替代行业知识库，也不替你判断市场必然成功；它负责约束 AI 如何理解项目、控制范围、审查证据、做出决策和复盘纠偏。
 
@@ -66,12 +68,17 @@ tests/
 1. 在私人项目目录中，用 `references/project-state-template.md` 创建 `project-state.md`。
 2. 用 `references/decision-log-template.md` 创建 `decision-log.md`。
 3. 保留 `review-protocol.md`，并设定周/月复盘时间。
-4. 对 AI 说：
+4. 最简中文用法：
+
+> 用外贸项目助手：下一步做什么？
+
+如果需要强制指定系统内部 ID，也可以说：
 
 > 使用 `$foreign-trade-project-os`。先读取当前项目的 project-state.md 和 decision-log.md，区分事实/推断/假设/未知，找出单一核心约束，只给一个第一优先级。重要决策执行 Planner–Red Team–Judge，缺证据时给最低成本验证，不宣布商业假设成立。
 
 ## 日常使用示例
 
+- “用外贸项目助手：继续青岛饰品项目。”
 - “我又想到三个新市场，使用 Skill 判断是否进入当前 Scope。”
 - “做本周复盘，只保留下周一个第一优先级。”
 - “对这个美国优先方案做最强反方审查。”
